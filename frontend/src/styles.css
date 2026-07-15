@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  background: #f4f6f9;
+  color: #1e2530;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+input, select, textarea {
+  font-family: inherit;
+  font-size: 14px;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 9px 16px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+
+.btn-primary {
+  background: #2e5aac;
+  color: #fff;
+}
+.btn-primary:hover { background: #244a8c; }
+
+.btn-secondary {
+  background: #fff;
+  border-color: #d7dce3;
+  color: #1e2530;
+}
+.btn-secondary:hover { background: #f0f2f5; }
+
+.btn-danger {
+  background: #fff;
+  border-color: #e5b3b3;
+  color: #c0392b;
+}
+.btn-danger:hover { background: #fbeaea; }
+
+.card {
+  background: #fff;
+  border-radius: 12px;
+  border: 1px solid #e7eaf0;
+  padding: 20px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-bottom: 14px;
+}
+
+.field label {
+  font-size: 13px;
+  font-weight: 600;
+  color: #55606f;
+}
+
+.field input, .field select, .field textarea {
+  padding: 9px 11px;
+  border-radius: 7px;
+  border: 1px solid #d7dce3;
+  outline: none;
+}
+
+.field input:focus, .field select:focus, .field textarea:focus {
+  border-color: #2e5aac;
+}
+
+.error-text {
+  color: #c0392b;
+  font-size: 12px;
+}
+
+.badge {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th, td {
+  text-align: left;
+  padding: 10px 12px;
+  border-bottom: 1px solid #eef0f4;
+  font-size: 14px;
+}
+th {
+  color: #6b7480;
+  font-weight: 600;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
