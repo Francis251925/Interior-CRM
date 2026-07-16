@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  apiUrl: 'interior-crm-production.up.railway.app/api',
+  apiUrl: 'https://interior-crm-production.up.railway.app/api',
 };
